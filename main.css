@@ -26,7 +26,6 @@ nav
 }
 .zainteresowania
 {
-	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
@@ -47,7 +46,6 @@ nav
 }
 .ProjektPRO300
 {
-	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
@@ -68,7 +66,6 @@ nav
 }
 .dlaczegoLR
 {
-	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
@@ -89,7 +86,6 @@ nav
 }
 .kontakt
 {
-	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
