@@ -1,25 +1,32 @@
-h1
+#navL
 {
     font-family: 'Dancing Script', cursive;
     font-size:70px;
 	font-weight: 700;
 	color:#f7a8a8;
-    margin-left: 5%;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
 	border-bottom: 1px solid gray;
 	border-bottom-right-radius: 20%;
+	padding: 0;
+	margin: 0;
+	margin-left: 5%;
 }
 nav
 {
-    float:right;
-    -webkit-font-smoothing: antialiased;
+	position: absolute;
+	top: 30px;
+	right: 30px;
 	font-family: 'Lato', sans-serif;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10px;
+	float: right;
+	margin-top: 70px;
+	margin-right: 90px;
 }
 .zainteresowania
 {
+	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
@@ -32,15 +39,15 @@ nav
 	text-decoration: none;
 	font-weight: bold;
 	color:#585858;
-	transition-duration:0.1s;
+	transition-duration:0.2s;
 }
 .zainteresowania:hover
 {
-    color:#f7a8a8;
-	border-bottom: 1px solid #f7a8a8;
+	border-bottom: 4px solid rgba(247,168,168,0.5);
 }
 .ProjektPRO300
 {
+	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
@@ -53,15 +60,15 @@ nav
 	text-decoration: none;
 	font-weight: bold;
 	color:#585858;
-	transition-duration:0.1s;
+	transition-duration:0.2s;
 }
 .ProjektPRO300:hover
 {
-    color:#f7a8a8;
-	border-bottom: 1px solid #f7a8a8;
+	border-bottom: 4px solid rgba(247,168,168,0.5)
 }
 .dlaczegoLR
 {
+	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
@@ -74,15 +81,15 @@ nav
 	text-decoration: none;
 	font-weight: bold;
 	color:#585858;
-	transition-duration:0.1s;
+	transition-duration:0.2s;
 }
 .dlaczegoLR:hover
 {
-    color:#f7a8a8;
-	border-bottom: 1px solid #f7a8a8;
+	border-bottom: 4px solid rgba(247,168,168,0.5);
 }
 .kontakt
 {
+	-webkit-font-smoothing: antialiased;
     padding-top:15px;
 	padding-bottom:15px;
 	display: inline-block;
@@ -95,22 +102,22 @@ nav
 	text-decoration: none;
 	font-weight: bold;
 	color:#585858;
-	transition-duration:0.1s;
+	transition-duration:0.2s;
 }
 .kontakt:hover
 {
-    color:#f7a8a8;
-	border-bottom: 1px solid #f7a8a8;
+	border-bottom: 4px solid rgba(247,168,168,0.5);
 }
 .mainphoto
 {
 	background-image:  url(zdj1.JPG);
 	background-size: cover;
-	background-position: 60% top;
+	background-position: 70% top;
 	box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 	border-radius: 15px 15px 15px 15px;
 	height: 1100px;
 	width: 100%;
+	margin-top: 90px;
 	
 	text-align: left;
 	font-family: 'Quicksand', sans-serif;
@@ -122,11 +129,6 @@ nav
 	align-content: center;
 }
 
-
-article
-{
-	display: inline-block;
-}
 
 
 
